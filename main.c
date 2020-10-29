@@ -16,6 +16,9 @@ int main(int argc, char *argv[]) {
 		scanf("%d", &grade[i]);
 		sum+=grade[i];
 }
+	for (i=0; i<SIZE; i++)
+		printf("grade[%d]=%d\n", i, grade[i]);
+		
 	average = sum/SIZE;
 	printf("grade average:%d\n", average);
 	
